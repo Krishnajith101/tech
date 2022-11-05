@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            JavaScript in body tag
+        </title>
+    </head>
+    <body>
+        <h1>JavaScript in body tag</h1>
+        <p id="para">This data will change on clicking the button below</p>
+        <input type="submit" value="click to change" onclick="bodyScript()">
+        <script>
+            function bodyScript()
+            {
+                document.getElementById("para").innerHTML="This is the data change that would happen on clicking on the button."          
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: white;
+}
+.header
+{
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+.header h1
+{
+    font-size: 50px;
+}
+.topnavbar
+{
+    overflow: hidden;
+    background-color: black;
+}
+.topnavbar a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnavbar a:hover
+{
+    background-color: white;
+    color: black;
+}
+.leftcolumn
+{
+    float: left;
+    width: 75%;
+    text-align: justify;
+}
+.rightcolumn
+{
+    float: left;
+    width: 25%;
+    background-color: antiquewhite;
+    padding-left: 20px;
+    text-align: justify;
+}
+.divimg
+{
+    background-color: lightgrey;
+    width: 100%;
+    padding: 20px;
+}
+.card
+{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer
+{
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+@media screen and (max-width:800px) 
+{
+    .leftcoloumn,.rightcoloumn
+    {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .topnavbar a 
+    {
+        float: none;
+        width: 100%;
+
+        
+    }
+}

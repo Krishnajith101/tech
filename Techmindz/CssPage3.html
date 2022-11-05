@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Multiple selectors
+        </title>
+        <style>
+            h1.center
+            {
+                text-align: center;
+                color: rgb(6, 6, 50);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: xx-large;
+                font-weight: bolder;
+            }
+            h3.center
+            {
+                text-align: left;
+                color: rgb(31, 31, 91);
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+            }
+            p.center
+            {
+                text-align: justify;
+                color: darkslateblue;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            p.para
+            {
+                text-align: justify;
+                color: cornflowerblue;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: large;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="center">CSS</h1>
+        <h3 class="center">Declaration Block</h3>
+        <p class="center">
+            A declaration block consists of a list of declarations in braces. Each declaration itself consists of a property, a colon (:), and a value. If there are multiple declarations in a block, a semi-colon (;) must be inserted to separate each declaration. An optional semi-colon after the last (or single) declaration may be used.[9] Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can affect any type of element, and others apply only to particular groups of elements.[10][11] Values may be keywords, such as "center" or "inherit", or numerical values, such as 200px (200 pixels), 50vw (50 percent of the viewport width) or 80% (80 percent of the parent element's width). Color values can be specified with keywords (e.g. "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB values on a 0 to 255 scale (e.g. rgb(255, 0, 0)), RGBA values that specify both color and alpha transparency (e.g. rgba(255, 0, 0, 0.8)), or HSL or HSLA values (e.g. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%)).[12]
+        </p>
+        <p class="para">
+            Non-zero numeric values representing linear measures must include a length unit, which is either an alphabetic code or abbreviation, as in 200px or 50vw; or a percentage sign, as in 80%. Some units – cm (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) – are absolute, which means that the rendered dimension does not depend upon the structure of the page; others – em (em); ex (ex) and px (pixel)[clarification needed] – are relative, which means that factors such as the font size of a parent element can affect the rendered measurement. These eight units were a feature of CSS 1[13] and retained in all subsequent revisions. The proposed CSS Values and Units Module Level 3 will, if adopted as a W3C Recommendation, provide seven further length units: ch; Q; rem; vh; vmax; vmin; and vw.[14]
+        </p>
+    </body>
+</html>

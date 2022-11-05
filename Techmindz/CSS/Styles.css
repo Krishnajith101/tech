@@ -1,0 +1,26 @@
+body
+{
+    background-color:rgb(157, 197, 184);
+}
+div.gallery
+{
+    margin: 15px;
+    border: 5px solid white;
+    float: left;
+    width: 250px;
+}
+div.gallery:hover
+{
+    border: 5px solid gray;
+}
+div.gallery img
+{
+    width: 100%;
+    height: 25%;
+}
+div.desc
+{
+    padding: 10px;
+    text-align: center;
+    
+}

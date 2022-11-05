@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            JavaScript in head tag
+        </title>
+        <script>
+            function headScript()
+            {
+                document.getElementById("para").innerHTML="This is the data change when you click on the submit button,ie the change is displayed on clicking on the submit button."
+            }
+        </script>
+    </head>
+    <body>
+        <h1>JavaScript in head tag</h1>
+        <p id="para">This data will be changed on clicking on the submit button below</p>
+        <input type="submit" value="click to change" onclick="headScript()" />
+    </body>
+</html>
